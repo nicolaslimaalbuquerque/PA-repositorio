@@ -5,7 +5,7 @@ Algoritmo "dolár e real"
 // Autor(a)    : nicolas lima albuquerque
 // Data atual  : 09/03/2023
 Var
- R$, US$, cotação: real
+ RS, USS, cotacao: real
  
  
 
@@ -13,15 +13,15 @@ Var
 Inicio
 escreval("qual a cotação do dolár")
 leia( cotacao)
-escreval("quantos doláres você?")
-leia(US$)
+escreval("quantos doláres você têm?")
+leia(USS)
 
 //processamento
 
-R$ <- cotacao *  UR$
+RS <- cotacao *  USS
 
 //saida
-escreval("
+escreval("seu saldo é de R$", RS )
 
 
 
